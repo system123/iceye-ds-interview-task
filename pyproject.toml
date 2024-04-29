@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "iceye-ds-interview-task"
+version = "0.1.0"
+description = ""
+authors = ["Lloyd Hughes <hughes.lloyd@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+shapely = "^2.0.4"
+geopandas = "^0.14.3"
+sarsen = "^0.9.3"
+ipykernel = "^6.29.4"
+sentineleof = "^0.9.5"
+pycountry = "^23.12.11"
+pandas = "^2.2.2"
+tqdm = "^4.66.2"
+ipywidgets = "^8.1.2"
+jupyter = "^1.0.0"
+rasterio = "^1.3.10"
+pyproj = "^3.6.1"
+xarray = "^2024.3.0"
+xmlschema = "^3.3.0"
+stactools-sentinel1 = "^0.8.0"
+pystac = "^1.10.0"
+pystac-client = "^0.7.7"
+rioxarray = "^0.15.5"
+elevation = "^1.1.3"
+sardem = "^0.11.3"
+affine = "^2.4.0"
+xarray-spatial = "^0.4.0"
+scikit-learn = "^1.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
